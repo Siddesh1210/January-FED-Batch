@@ -1,0 +1,45 @@
+/* *{
+    border:1px solid red;
+} */
+
+/* h4{
+    color:blueviolet;
+    font-size:30px;
+} */
+
+/* h3{
+    color:rgb(255, 0, 0) !important;
+} */
+
+/* p{
+    background-color:blueviolet;
+    color:white;
+
+} */
+
+
+#para1
+{
+    background-color: red;
+    color:white;
+}
+
+#para2
+{
+   background-color: blueviolet;
+   color:white; 
+}
+
+.head-tag
+{
+    color:rgb(255, 0, 225);
+}
+
+h1{
+    color:blue;
+}
+
+#heading
+{
+    color:brown;
+}
