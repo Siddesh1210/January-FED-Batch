@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* body{
+    background-color: blanchedalmond;
+} */
+
+.para1
+{
+    /* color:blue; */
+    /* background-color: black; */
+    text-align: justify;
+    /* line-height: 20px;
+    word-spacing: 5px; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrvsm3c5095u4OuaDFyT6cXSEHqXcyos5IA&usqp=CAU); */
+    /* background-image: url('../CSS Day 2/bg-img.jpg'); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShg_WH3T_eoKPs7bFvKIh7qB8Ohk_yrnkz1w&usqp=CAU);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+
+.head1
+{
+    text-align: center;
+    /* text-decoration: line-through; */
+    /* text-transform: lowercase; */
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+#para2
+{
+    font-size: 20px;
+    font-weight:lighter;
+    /* font-family:fantasy; */
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.image1
+{
+    /* filter:blur(2px); */
+    /* filter:brightness(100%) */
+    /* filter:contrast(10%) */
+    /* filter:grayscale(80%); */
+    filter:opacity(100%);
+}
+
+.para3
+{
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+}
