@@ -1,0 +1,58 @@
+/* CSS Gardient --> 1.linearGradient 2.radialGradient */
+
+.div1
+{
+   height:300px;
+   /* width:300px; */
+   /* border:1px solid red;  */
+   /* background-color: aqua; */
+   /* background-image: linear-gradient(to bottom,red,yellow,green); */
+   /* background-image: radial-gradient(circle,red,yellow,green); */
+   /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    /* background-image: radial-gradient(circle,red,yellow,green); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#para2
+{
+    /* height:300px; */
+    /* border-style:solid;
+    border-width:20px;
+    border-color: rgb(0, 0, 0); */
+    border:1px solid rgb(0, 0, 0);
+    /* border-bottom-right-radius: 20px; */
+    border-radius: 15px;
+    /* padding-top */
+    /* padding-bottom:50px; */
+    padding:50px 100px;
+    margin:100px;
+    /* margin-top:100px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    margin-left:50px; */
+}
+p{
+    /* border:1px solid red; */
+}
+
+#div2
+{
+    width:300px;
+    height:200px;
+    border:10px solid red;
+    margin-bottom:30px;
+    padding:10px;
+}
+
+#div3
+{
+    width:300px;
+    height:200px;
+    border:1px solid red;
+    padding:50px;
+    box-sizing: border-box;
+    box-shadow:5px 5px 10px rgb(200, 198, 198);
+    margin-bottom: 50px;
+}
