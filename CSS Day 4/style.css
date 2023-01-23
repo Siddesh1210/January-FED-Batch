@@ -8,14 +8,19 @@
     margin:50px auto;
     padding:10px;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 5px rgb(199, 198, 198);
 }
+
+/* .card:hover{
+    box-shadow: 3px 3px 5px rgb(199, 198, 198);
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+} */
 
 .img-parent
 {
     width:300px;
     height:200px;
-    /* padding:10px; */
-    box-sizing: border-box;
 }
 
 .food-image
@@ -57,13 +62,20 @@ h3{
 
 /* Position --> 1.Static 2.absolute 3.Relative 4.Fixed 5.Sticky */
 
+#box2
+{
+    position: relative;
+    top:30px;
+    left:50px;
+}
+
 #box3
 {
     position: fixed;
     bottom:10px;
     right:20px;
     background-color: rgb(8, 243, 102);
-    color:white;
+    color:rgb(255, 255, 255);
     width:100px !important;
     height:40px !important;
     text-align: center;
@@ -74,5 +86,5 @@ h3{
 #sticky
 {
     position: sticky;
-    top:0px;
+    top:50px;
 }

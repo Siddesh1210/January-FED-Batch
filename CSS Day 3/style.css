@@ -3,35 +3,39 @@
 .div1
 {
    height:300px;
-   width:300px;
+   /* width:300px; */
    /* border:1px solid red;  */
    /* background-color: aqua; */
-   /* background-image: linear-gradient(to left,red,yellow); */
-   background-image: radial-gradient(circle,red,yellow,green);
+   /* background-image: linear-gradient(to top,red,yellow); */
+   /* background-image: radial-gradient(circle,red,yellow,green); */
    /* background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
     /* background-image: radial-gradient(circle,red,yellow,green); */
     /* background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
 
 #para2
 {
     /* height:300px; */
     /* border-style:solid;
-    border-width:10px;
+    border-width:1px;
     border-color: rgb(0, 0, 0); */
-    /* border:1px solid rgb(0, 0, 0); */
-    /* border-top-left-radius: 20px; */
+    border:10px solid rgb(0, 0, 0);
+    /* border-top-right-radius: 20px; */
     /* border-radius: 15px; */
     /* padding-top */
-    /* padding-bottom:50px; */
-    /* padding:50px 100px 30px 50px; */
+    /* padding-left:50px; */
+    /* padding:50px; */
     /* margin:100px 50px; */
-    /* margin-top:100px;
-    margin-right:50px;
-    margin-bottom: 50px;
+    /* margin-top:100px; */
+    /* margin-right:50px; */
+    /* margin-bottom: 50px;
     margin-left:50px; */
+    margin:50px;
 }
 p{
     /* border:1px solid red; */
@@ -44,6 +48,7 @@ p{
     border:10px solid red;
     margin-bottom:30px;
     padding:50px;
+    box-sizing: border-box;
     /* padding:10px; */
 }
 
@@ -51,9 +56,8 @@ p{
 {
     width:300px;
     height:200px;
-    border:10px solid red;
-    padding:50px;
-    box-sizing: border-box;
-    box-shadow:10px 10px 5px rgb(193, 193, 193);
+    border:1px solid red;
+    /* padding:50px; */
+    box-shadow:50px 30px 10px rgb(255, 0, 0);
     margin-bottom: 50px;
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 /* body{
     background-color: blanchedalmond;
@@ -8,15 +9,16 @@
 
 .para1
 {
-    /* color:blue; */
+    color:blue;
     /* background-color: black; */
     text-align: justify;
-    /* line-height: 20px;
-    word-spacing: 5px; */
+    /* font-weight: bold; */
+    /* line-height: 50px; */
+    /* word-spacing: 20px; */
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKrvsm3c5095u4OuaDFyT6cXSEHqXcyos5IA&usqp=CAU); */
     /* background-image: url('../CSS Day 2/bg-img.jpg'); */
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShg_WH3T_eoKPs7bFvKIh7qB8Ohk_yrnkz1w&usqp=CAU);
-    background-size: cover;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShg_WH3T_eoKPs7bFvKIh7qB8Ohk_yrnkz1w&usqp=CAU); */
+    /* background-size: cover; */
     /* background-repeat: no-repeat; */
 }
 
@@ -24,32 +26,35 @@
 .head1
 {
     text-align: center;
+    /* text-align: start; */
     /* text-decoration: line-through; */
     /* text-transform: lowercase; */
-    font-size: 30px;
+    font-size: 50px;
     font-weight: lighter;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family:fantasy; */
-    font-family: 'Anton', sans-serif;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 #para2
 {
     font-size: 20px;
-    font-weight:lighter;
+    font-weight:bold;
     /* font-family:fantasy; */
     font-family: 'Poppins', sans-serif;
-    font-style: italic;
+    font-style:italic;
 }
 
 .image1
 {
-    /* filter:blur(2px); */
-    /* filter:brightness(100%) */
-    /* filter:contrast(10%) */
-    /* filter:grayscale(80%); */
-    filter:opacity(30%);
+    filter:blur(2px);
+    /* filter:brightness(50%); */
+    /* filter:contrast(50%); */
+    /* filter:grayscale(100%); */
+    /* filter:opacity(0%); */
 }
 
 .para3
