@@ -1,0 +1,136 @@
+.box
+{
+    width:200px;
+    height:200px;
+    display: inline-block;
+    margin:0px 20px;
+}
+
+#box1
+{
+    background-color: blue;
+    position: relative;
+    z-index:3;
+}
+
+#box2
+{
+    background-color: blueviolet;
+    position: relative;
+    top:50px;
+    left:-80px;
+    z-index:2;
+}
+
+#box3
+{
+    background-color: tomato;
+    position: relative;
+    top:100px;
+    left:-160px;
+    z-index:4;
+}
+
+.card
+{
+    width:300px;
+    margin:200px auto 50px auto;
+    display: block;
+    border:1px solid grey;
+    border-radius: 12px;
+    padding:10px;
+}
+
+.card:hover
+{
+    /* animation-name: siddesh; */
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes siddesh {
+    to
+    {
+        transform:skew(180deg);
+    }
+}
+
+.parent-img
+{
+    width:300px;
+    height:180px;
+}
+
+.image
+{
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+}
+
+.image:hover{
+    filter:grayscale(80%);
+    transition: 1s ease-in-out;
+}
+
+.btn
+{
+    width:100%;
+    background-color:black;
+    color:white;
+    padding:6px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 8px;
+}
+
+
+.btn:hover
+{
+    background-color: white;
+    color:rgb(2, 2, 2);
+    border:1px solid red;
+    transition: 2s ease-in-out;
+    transform: scale(1.5);
+}
+
+
+a 
+{
+    font-size: 30px;
+}
+a:active{
+    color:red;
+    background-color: black;
+}
+
+.inp
+{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    font-size: 16px;
+}
+
+.inp:focus{
+    outline:none;
+    border:2px solid blueviolet;
+}
+
+.para
+{
+    font-size: 20px;
+}
+
+.para::selection
+{
+    color:red;
+    background-color: black;
+}
+
+
+li:nth-child(even)
+{
+    color:blue;
+}

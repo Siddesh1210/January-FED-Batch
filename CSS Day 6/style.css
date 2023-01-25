@@ -25,11 +25,11 @@
 .card
 {
     width:300px;
-    border:1px solid grey;
+    border:1px solid rgb(200, 200, 200);
     border-radius: 12px;
     padding:10px;
     font-family: 'Poppins', sans-serif;
-    margin:20px;
+    margin:20px 0px;
 }
 
 .img-parent
@@ -55,6 +55,7 @@
     cursor: pointer;
     color:white;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 h3{
@@ -63,13 +64,14 @@ h3{
 
 p{
     margin:8px 0px;
+    text-align: justify;
 }
 
 .parent
 {
     display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
     height:100vh;
     align-items: center;
 }
