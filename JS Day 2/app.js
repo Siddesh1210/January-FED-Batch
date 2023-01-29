@@ -29,7 +29,7 @@ let num1=10;
 
 // let b=20;
 // console.log(b)
-// b-=10; //a=a-20
+// b-=10; //b=b-20
 // console.log(b)
 
 // Logical Operator && , || ,!
@@ -78,13 +78,14 @@ let num1=10;
 
 // Initialization / Condition / Increment-Decrement
 
-// let num=11;
+let num=11;
 // do
 // {
 //    console.log(num);
 //    num++;
 // }
 // while(num<=10);
+
 
 // Jump --> Break , Continue
 
