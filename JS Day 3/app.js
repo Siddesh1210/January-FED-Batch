@@ -13,9 +13,9 @@
 
 // condition?true:false
 
-// let age=20;
-// let output=(age>=18)?'Person can vote':'Person cannot vote'
-// console.log(output);
+let age=15;
+let output=(age>=18)?'Person can vote':'Person cannot vote'
+console.log(output);
 //  let isLoggedIn=0;
 //  let check=(isLoggedIn==1)?'Person is logged in':'Person have logout!!'
 //  console.log(check)
@@ -71,7 +71,7 @@
 
 // Math function in JS
 
-// let value= Math.round(7.2)
+// let value= Math.round(7.7)
 // console.log(value)
 
 // let value=Math.ceil(8.1);
