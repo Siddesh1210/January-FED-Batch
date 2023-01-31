@@ -31,13 +31,14 @@
 // console.log(merge);
 
 // arr_name.splice(Index Start , no of element , Value replace)
+// let hobbies=["cricket","football","basketball","volleyball"]
 
-// hobbies.splice(1,1,"Badminton");
+// hobbies.splice(2,0,"Badminton");
 // console.log(hobbies);
 
 
 // Object --> One single Thing / Entity Which will have Property/key and Value
-// car =
+// let car =
 // {
 //     Company : "Kia",
 //     Price : 1000000,
@@ -64,8 +65,8 @@ let student=
 // console.log(student);
 
 // Add
-// student.weight=65;
-// console.log(student);
+student.weight=65;
+console.log(student);
 
 
 
