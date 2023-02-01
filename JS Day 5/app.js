@@ -20,7 +20,7 @@
 
 //fetch,add
 
-// console.log(users[0].age)
+// console.log(users[0].name)
 
 // Add new object in aob
 // let tempUser={
@@ -28,13 +28,13 @@
 //     age:19
 // }
 
-// users.unshift(tempUser);
+// users.push(tempUser);
 
 // console.log(users);
 
 // Delete an object from aob
 
-// users.shift();
+// users.pop();
 // console.log(users)
 
 // Lucky draw winner game
@@ -62,6 +62,7 @@
 // ]
 
 // let random=Math.floor(Math.random()*5);
+// console.log(random);
 // console.log(participants[random].name)
 
 // Return statement in function
@@ -73,41 +74,43 @@
 // }
 
 // let result=addition(10,20);
-// console.log(result)
+// console.log(result);
 // let sum=10+result;
 // console.log(sum);
 
 // Loop --> While , do-while , For
 // let arr=[1,2,3,4,5];
-// console.log(arr.length);
+// console.log(arr.length); //5
 // for(let i=0;i<arr.length;i++)
 // {
 //     console.log(arr[i]);
 // }
 // ForEach ForOF
-// users.forEach((x)=>
+// let users=["Siddesh","Ritik","Haamid"]
+// users.forEach((a)=>
 // {
-//     console.log(x)
+//     console.log(a)
 // }
 // )
 
-// let users=["Siddesh","Ritik","Haamid"]
-// for(let temp of users)
+// let users=["Siddesh","Ritik","Sakshi"]
+// for(let x of users)
 // {
-//     console.log(temp);
+//     console.log(x);
 // }
 
 // Rest Function
 
 // function sum(...args)
 // {
-//     for(let x of args)
-//     {
-//         console.log(x)
-//     }
+    // for(let x of args)
+    // {
+    //     console.log(x)
+    // }
+//     console.log(args);
 // }
 
-// sum(1,2,3,4,5)
+// sum(1,2,3,4,5,10)
 
 //spread operator
 // let arr1=[1,2,3]
@@ -123,11 +126,11 @@
 
 // sum(2,4)
 
-let users=["Siddesh","Ritik","Haamid"];
+// let users=["Siddesh","Ritik","Haamid"];
 
-users.forEach((x)=>
-{
-    console.log(x);
-}
-)
+// users.forEach((x)=>
+// {
+//     console.log(x);
+// }
+// )
 
