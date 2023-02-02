@@ -2,7 +2,9 @@
 // {
 //     let colortext=document.getElementById("color");
 //     // console.log(colortext)
-//     colortext.style.color="green";
+//     colortext.style.color="white";
+//     colortext.style.backgroundColor="black";
+
 // }
 
 function yes()
@@ -18,3 +20,6 @@ function no()
     // console.log(innertext.innerHTML);
     innertext.innerHTML="Join our next session";
 }
+
+
+
