@@ -34,7 +34,7 @@
 // parent.appendChild(divTag);
 
 let parent=document.getElementById('container');
-let divTag=document.createElement('div');
+let divTag=document.createElement('div');  //div created
 parent.appendChild(divTag);
 let userName=document.createElement('h3'); //h3 first name element created
 let userEmail=document.createElement('h3'); //h3 second email element created
@@ -44,7 +44,3 @@ divTag.appendChild(userName);
 divTag.appendChild(userEmail);
 
 divTag.classList.add('card');
-
-
-
-
