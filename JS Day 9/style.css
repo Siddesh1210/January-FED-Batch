@@ -1,0 +1,41 @@
+.card
+{
+    width:350px;
+    border:1px solid rgb(216, 214, 214);
+    padding:10px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.parent-image
+{
+    width:330px;
+    height: 200px;
+}
+
+.img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#btn
+{
+    width:100%;
+    padding:10px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px 0px;
+    flex-wrap: wrap;
+}
