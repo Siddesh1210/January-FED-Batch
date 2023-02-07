@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="food-output">
+        <div class="display">
+            <p id="title"></p>
+            <p id="price"></p>
+        </div>
+            <p class="successfull d-none" id="success-alert">Hurray!!! Your Order has been placed successfully!!</p>
+    </div>
     <div class="parent">
         <div class="card">
             <div class="parent-image">
@@ -16,7 +23,7 @@
             <h3>Chessy Pizza</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, ex?</p>
             <h3>Rs 399/-</h3>
-            <button id="btn" class="orderBtn">Order Now</button>
+            <button id="btn" class="orderBtn" data-title="Pizza" data-price="399">Order Now</button>
         </div>
 
         <div class="card">
@@ -26,7 +33,7 @@
             <h3>Classic Burger</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, ex?</p>
             <h3>Rs 100/-</h3>
-            <button id="btn" class="orderBtn">Order Now</button>
+            <button id="btn" class="orderBtn" data-title="Burger" data-price="100">Order Now</button>
         </div>
 
         <div class="card">
@@ -36,11 +43,10 @@
             <h3>Green Sandwich</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, ex?</p>
             <h3>Rs 59/-</h3>
-            <button id="btn" class="orderBtn">Order Now</button>
+            <button id="btn" class="orderBtn" data-title="Sandwich" data-price="59">Order Now</button>
         </div>
     </div>
     
-
     <script src="./app.js"></script>
 </body>
 </html>

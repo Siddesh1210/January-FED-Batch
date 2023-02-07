@@ -9,7 +9,7 @@
 
 .parent-image
 {
-    width:330px;
+    width:320px;
     height: 200px;
 }
 
@@ -36,6 +36,40 @@
 {
     display: flex;
     justify-content: space-evenly;
-    margin:50px 0px;
+    margin:10px 0px;
     flex-wrap: wrap;
+}
+
+.display 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display p{
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0px;
+}
+
+.successfull
+{
+    font-size: 25px;
+    color:green;
+    background-color: rgb(229, 245, 205);
+    margin:10px 0px;
+}
+
+.food-output
+{
+    width:300px;
+    padding:10px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 12px;
+    margin:10px auto
+}
+
+.d-none
+{
+    display: none;
 }
