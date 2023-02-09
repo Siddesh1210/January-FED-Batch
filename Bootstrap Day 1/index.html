@@ -22,14 +22,19 @@
     </style>
   </head>
   <body class="bg-dark">
-    <!-- 1.Container = Take 100% only on small-mobile devices after that it will give some margin on left-right
+    <!-- 1.Container = Take 100% width only on small-mobile devices after that it will give some margin on left-right
          2.Container-fluid = 100% width on all devices -->
 
-    <div class="container-fluid" id="bg">
+    <div class="Container-fluid" id="bg">
         <div class="row bg-primary" id="row">
-            <div class="col-lg-2 height-class bg-success">col 4</div>
-            <div class="col-lg-5 height-class bg-white">colm 4</div>
-            <div class="col-lg-3 height-class bg-warning">col 8</div>
+            <div class="col-md-4 height-class">
+              <div class="row">
+                <div class="col-6 bg-secondary height-class">Hey</div>
+                <div class="col-6 bg-info height-class">Hello</div>
+              </div>
+            </div>
+            <div class="col-md-5 height-class bg-white">col 5</div>
+            <div class="col-md-5 height-class bg-warning">col 5</div>
         </div>
     </div>
 
