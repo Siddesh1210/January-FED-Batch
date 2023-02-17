@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.bdy
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hii-text
+{
+    margin-bottom: 5px;
+}
+
+.navbar-toggler
+{
+    background-color: rgb(56, 94, 247) !important;
+}
+
+.name
+{
+    margin-bottom: 5px;
+    color:rgb(56, 94, 247);
+
+}
