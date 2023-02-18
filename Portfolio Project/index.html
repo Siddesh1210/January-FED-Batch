@@ -11,7 +11,7 @@
   <body class="bdy">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio</a>
+          <a class="navbar-brand" href="#" style="color:blue !important;">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,18 +21,18 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#aboutme">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projectme">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact me</a>
+                <a class="nav-link" href="./contact.html">Contact me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Github</a>
               </li>
-              <button type="button" class="btn btn-outline-primary">Call me</button>
+              <a href="tel:9623235838" style="text-decoration: none;"><button type="button" class="btn btn-outline-primary">Call me</button></a>
             </ul>
           </div>
         </div>
@@ -54,9 +54,9 @@
         <!-- end of hero session -->
 
         <!-- About Session start -->
-        <div class="row ">
+        <div class="row " id="aboutme">
             <div class="col-md-12 text-center my-1">
-                <h1>About <span class="text-primary">Me</span></h1>
+                <h1 class="aboutme-head">About <span class="text-primary">Me</span></h1>
             </div>
         </div>
         <div class="row justify-content-evenly align-items-center mt-2 mb-4 flex-wrap-reverse">
@@ -87,15 +87,57 @@
                 
             </div>
 
-            <div class="col-md-5 py-3">
+            <div class="col-md-5 pt-2  pb-3">
                 <h3>What <span class="text-primary">I'm able</span>  to do?</h3>
                 <p>I can handle projects related to frontend development and UI/UX design of the website.If I talk about complexity of the project then it can range from easy to hard type of projects. </p>
 
                 <p>I have created many projects using technologies like HTML , CSS , Javascript , Bootstrap , Nodejs , Reactjs , Mongodb. Currently I'm nourishing my skill in Machine Learning & Blockchain</p>
-                <div class="btn btn-primary">Check my Projects</div>
+                <a href="#projectme" style="text-decoration: none;"><div class="btn btn-primary">Check my Projects</div></a>
             </div>
         </div>
         <!-- About Session End -->
+
+        <!-- Start of Projects session -->
+        <div class="row justify-content-evenly mt-3 mb-3" id="projectme">
+          <div class="col-md-12 text-center">
+            <h1>Recent <span style="color:rgb(56, 94, 247)">Projects</span></h1>
+          </div>
+          <div class="col-md-3 border rounded py-2 m-2">
+            <img src="./Images/picabite.png" alt="picabite" style="width:100%;height:180px;border-radius: 10px;">
+            <h4 class="pt-2 pb-1">PicaBite - food application</h4>
+            <p>It's a responsive food application made build HTMl , CSS and Git.</p>
+            <a href="https://picabite2023-siddesh.vercel.app/" target="_blank" style="text-decoration: none;"><div class="project-btn">Check Project</div></a>
+          </div>
+
+          <div class="col-md-3 border rounded py-2 m-2">
+            <img src="./Images/netflix.png" alt="netflix clone" style="width:100%;height:180px;border-radius: 10px;">
+            <h3 class="pt-2 pb-1">Netflix - Clone</h3>
+            <p>It's a responsive Netflix clone application build with HTMl , CSS , Git and Bootstrap.</p>
+            <div class="project-btn">Check Project</div>
+          </div>
+
+          <div class="col-md-3 border rounded py-2 m-2">
+            <img src="./Images/Hotstar.png" alt="hotstar" style="width:100%;height:180px;border-radius: 10px;">
+            <h3 class="pt-2 pb-1">Hotstar - Clone</h3>
+            <p>It's a responsive Netflix clone application build with HTMl , CSS , Git and Bootstrap.</p>
+            <a href="https://garamtara.vercel.app/" target="_blank" style="text-decoration: none;"><div class="project-btn">Check Project</div></a>
+          </div>
+          
+        </div>
+        <!-- end of Projects session -->
+
+        <!-- start of footer -->
+        <div class="row">
+          <div class="col-md-12 bg-primary text-white text-center pt-4 pb-2">
+            <p>Copyright &#169; Siddesh Jaiswal.All right reserved.<br>
+            Made with <i class="bi bi-heart"></i> by Siddesh Jaiswal</p>            
+          </div>
+        </div>
+        <!-- end of footer -->
+
+
+
+
 
 
 

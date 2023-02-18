@@ -19,5 +19,24 @@
 {
     margin-bottom: 5px;
     color:rgb(56, 94, 247);
+}
 
+.project-btn
+{
+    width:100%;
+    padding:8px;
+    text-align: center;
+    border-radius: 8px;
+    cursor:pointer;
+    background-color:rgb(56, 94, 247) ;
+    color:white;
+}
+
+@media (max-width:576px)
+{
+    .aboutme-head
+    {
+        margin-bottom: 0px !important;
+        margin-top:16px
+    }
 }
